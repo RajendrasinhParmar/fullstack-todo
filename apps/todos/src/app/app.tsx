@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
-interface Todo {
-  title: string;
-}
+import { Todo } from "@fullstack-todo/data";
 
 export const App = () => {
   /*

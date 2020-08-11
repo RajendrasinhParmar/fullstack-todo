@@ -1,5 +1,28 @@
 # FullstackTodo
 
+This is a demo project for fullstack application using monorepo approach.
+
+### Installation
+
+1. Install nx on your system
+    ```
+    npm install -g nx
+    ```
+2. Install all the dependencies of the repository
+    ```
+    npm install
+    ```
+3. Execute API project
+    ```
+    nx serve api
+    ```
+4. Execute react application
+    ```
+    nx serve todos
+    ```
+  
+After both the projects are running, open `http://localhost:4200` to check the running application.
+
 This project was generated using [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>

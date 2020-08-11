@@ -5,7 +5,7 @@ export const Todos = (props: { todos: Todo[] }) => {
   return (
     <ul>
       {props.todos.map((todo) => (
-        <li className={'todo'}>{todo.title}</li>
+        <li className={'todo'}>{todo.title}!!</li>
       ))}
     </ul>
   );
